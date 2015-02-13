@@ -38,7 +38,7 @@
 -- fr_br=  30                         ! Fringing field distance
 -- d_ele=  20                         ! Electrode gap
 --
--- The computed pull-in voltage is 859 volts.
+-- The computed pull-in voltage is ... volts.
 --
 -- Euler solver: time=20u; step=10n
 --
