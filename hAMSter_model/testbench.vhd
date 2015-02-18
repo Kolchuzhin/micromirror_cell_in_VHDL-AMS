@@ -4,6 +4,7 @@
 -- electrical excitation - > mechanical response
 -- transducer is driven by a voltage: 
 --
+--					0.
 --					1. sweep computing the pull-in voltage 
 --					2. 
 --					3.
@@ -43,7 +44,7 @@
 --
 -- The computed pull-in voltage is 859 volts.
 --
--- Euler solver: time=20u; step=10n
+-- Euler solver: time=0.2m; step=0.4u
 --
 --
 -------------------------------------------------------------------------------
@@ -90,36 +91,76 @@ architecture behav of testbench is
   constant t_end:real:=20.0e-06;
   constant    dt:real:=10.0E-09;
   constant ac_value:real:=10.0;
-  constant dc_value:real:=900.0;
+  constant dc_value:real:=850.0;
 
-  constant   key_load:integer:=1; -- 1/2/3/4/5 == ramp/chirp/puls  
+  constant   key_load:integer:=1; -- 0/1/2/3/4/5 == ramp/chirp/puls  
 
--- key_load=1 => Calculation of voltage displacement functions up to pull-in
--- key_load=2 => Calculation of voltage displacement functions at multiple load steps
--- key_load=3 => Calculation of displacements at acting element loads
--- key_load=4 => Prestressed harmonic analysis
--- key_load=5 => Nonlinear transient analysis
+-- key_load=0 => calculation of voltage displacement functions up to pull-in
+-- key_load=1 => calculation of voltage displacement functions up to pull-in
+-- key_load=2 => calculation of voltage displacement functions at multiple load steps
+-- key_load=3 => calculation of displacements at acting element loads
+-- key_load=4 => prestressed harmonic analysis
+-- key_load=5 => nonlinear transient analysis
                                      
 begin
 
--- Load:
-if key_load = 1 use -- ramp/sweep
+-- Loads:
+
+if key_load = 0 use -- step
+    v1_ext == 0.0;
     v2_ext == 0.0;
-    v1_ext == dc_value/t_end*now;
-    --v3_ext == 0.0;
-	i3_ext==0.0; 
-end use;
+    v3_ext == 0.0;
+
+  	fm1_ext == 173.038;    -- external modal force 1, uN; fm1_ext=km_1*q1_ext, => q1_ext=1.0
+	fm2_ext == 924.245;    -- external modal force 2, uN
+end use;  
+
+if key_load = 1 use -- ramp/sweep
+    v1_ext == 0.0;
+    v2_ext == dc_value/t_end*now;
+	i3_ext==0.0;
+
+	fm1_ext == 0.0;      -- external modal force 1
+	fm2_ext == 0.0;      -- external modal force 2
+end use;  
 
 if key_load = 2 use
+    v1_ext == 5.0/t_end*now-110.0; -- sweep voltage at cond1
+    v2_ext == +800.0; 			   -- fixed polarization voltage
+    v3_ext == -800.0;              -- fixed polarization voltage
+
+	fm1_ext == 0.0;      -- external modal force 1
+	fm2_ext == 0.0;      -- external modal force 2
+end use;     
+
+if key_load = 3 use
     v1_ext == 0.0;
     v2_ext == dc_value/t_end*now;
     v3_ext == 0.0;
-end use;     
 
+	fm1_ext == 0.0;      -- external modal force 1
+	fm2_ext == 0.0;      -- external modal force 2
+end use;
+
+if key_load = 4 use
+    v1_ext == 0.0;
+    v2_ext == dc_value/t_end*now;
+    v3_ext == 0.0;
+--v_ext1 == dc_value*0.1 + ac_value*sin(2.0*3.14*(f_begin + (f_end-f_begin)/t_end*now) * now);
+	fm1_ext == 0.0;      -- external modal force 1
+	fm2_ext == 0.0;      -- external modal force 2
+end use;
+
+if key_load = 5 use
+    v1_ext == 0.0;
+    v2_ext == dc_value/t_end*now;
+    v3_ext == 0.0;
+
+	fm1_ext == 0.0;      -- external modal force 1
+	fm2_ext == 0.0;      -- external modal force 2
+end use;
 -------------------------------------------------------------------------------
 -- BCs:
-fm1_ext==0.0;      -- external modal force 1
-fm2_ext==0.0;      -- external modal force 2
 
 r1_ext==0.0;       -- must be zero
 r2_ext==0.0;       -- must be zero
