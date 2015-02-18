@@ -1,23 +1,12 @@
 -------------------------------------------------------------------------------
 -- Model: testbench for transducer.vhd (micromirror_cell) in hAMSter
 --
--- electrical excitation - > mechanical response
--- transducer is driven by a voltage: 
---
---					0.
---					1. sweep computing the pull-in voltage 
---					2. 
---					3.
---					4. chirp
---					5.
---
--- 
 -- Author: Vladimir Kolchuzhin, LMGT, TU Chemnitz
 -- <vladimir.kolchuzhin@etit.tu-chemnitz.de>
 -- Date: 21.06.2011
-
--- Library:     
---			VHDL-AMS generated code from ANSYS ROM Tool for hAMSter 
+--
+-- Library: VHDL-AMS generated code from ANSYS ROM Tool for hAMSter    
+--
 --				initial.vhd
 --				s_ams_130.vhd
 --				ca12_ams_130.vhd
@@ -25,10 +14,11 @@
 --				ca23_ams_130.vhd
 --				transducer.vhd
 --
---				uMKSV  units  
+-- uMKSV  units  
 --
 -- Reference: Release 11.0 Documentation for ANSYS 
 --            8.6. Sample Micro Mirror Analysis
+--
 --
 -- fe_la= 200                         ! Spring length
 -- fe_br=  10                         ! Spring width
@@ -40,17 +30,27 @@
 -- po_la=  80                         ! Length of anchor post
 -- po_br=  80                         ! Width of anchor post
 -- fr_br=  30                         ! Fringing field distance
--- d_ele=  20                         ! Electrode gap
+-- d_ele=  20                         ! Electrode gap 
 --
--- The computed pull-in voltage is 859 volts.
+-- 
 --
 -- Euler solver: time=0.2m; step=0.4u
 --
 --
+--					0. mechanical test: fm1_ext=km_1*q1_ext
+--					1. sweep computing the pull-in voltage
+--					2. 
+--					3.
+--					4. chirp for harmonic response
+--					5.  
+--
+-- The computed pull-in voltage is 859 volts (ANSYS ROM144)
+-- electrical excitation - > mechanical response
+-- transducer is driven by a voltage
 -------------------------------------------------------------------------------
 -- ID: testbench_pi.vhd
--- ver. 1.0 13.02.2015
---
+-- ver. 1.0  13.02.2015
+-- ver. 1.01 18.02.2015 mechanical test passed
 -------------------------------------------------------------------------------
 use work.electromagnetic_system.all;
 use work.all;
@@ -62,10 +62,10 @@ entity testbench is
 end;
 
 architecture behav of testbench is
-  terminal struc1_ext,struc2_ext: translational; 					--
+  terminal struc1_ext,struc2_ext: translational; 		    --
   terminal lagrange1_ext,lagrange2_ext,lagrange3_ext:translational; --
-  terminal master1_ext,master2_ext,master3_ext:translational;		--
-  terminal elec1_ext,elec2_ext,elec3_ext: electrical;				--
+  terminal master1_ext,master2_ext,master3_ext:translational;	    --
+  terminal elec1_ext,elec2_ext,elec3_ext: electrical;		    --
 
   -- Modal displacement
   quantity q1_ext across fm1_ext through struc1_ext;          -- modal amplitude 1
@@ -83,15 +83,19 @@ architecture behav of testbench is
   quantity v2_ext across i2_ext  through elec2_ext;            -- conductor voltage 2
   quantity v3_ext across i3_ext  through elec3_ext;            -- conductor voltage 3
 
-  constant digital_delay:time:=3 us;          -- Time step size for matrix update: 3 us
+  constant t_end:real:=0.2e-03;
+  constant    dt:real:=0.4e-06;
+  constant ac_value:real:=10.0;
+  constant dc_value:real:=930.0;
+
+  constant f_begin:real:=1.0;
+  constant f_end:real:=5.0e+03;
+
+  constant digital_delay:time:=0.4 us;          -- time step size for matrix update:  dt
 
   constant el_load1:real:=0.0;	-- element load 1 (scale factor): acceleration in Z-direction 9.8e6 m/s**2
   constant el_load2:real:=0.0;  -- element load 2 (scale factor): uniform pressure load 1 MPa
 
-  constant t_end:real:=20.0e-06;
-  constant    dt:real:=10.0E-09;
-  constant ac_value:real:=10.0;
-  constant dc_value:real:=850.0;
 
   constant   key_load:integer:=1; -- 0/1/2/3/4/5 == ramp/chirp/puls  
 
@@ -118,6 +122,7 @@ end use;
 if key_load = 1 use -- ramp/sweep
     v1_ext == 0.0;
     v2_ext == dc_value/t_end*now;
+	--v3_ext == 0.0;
 	i3_ext==0.0;
 
 	fm1_ext == 0.0;      -- external modal force 1
@@ -144,9 +149,9 @@ end use;
 
 if key_load = 4 use
     v1_ext == 0.0;
-    v2_ext == dc_value/t_end*now;
+    v2_ext == dc_value*0.1 + ac_value*sin(2.0*3.14*(f_begin + (f_end-f_begin)/t_end*now) * now);
     v3_ext == 0.0;
---v_ext1 == dc_value*0.1 + ac_value*sin(2.0*3.14*(f_begin + (f_end-f_begin)/t_end*now) * now);
+
 	fm1_ext == 0.0;      -- external modal force 1
 	fm2_ext == 0.0;      -- external modal force 2
 end use;
@@ -193,11 +198,11 @@ f3_ext==0.0;       -- external nodal force on master node 3
 --
 -- ASCII-Schematic of the transducer-component 
 
-component1:		entity transducer(behav)
+component1:	entity transducer(behav)
  	       generic map (digital_delay, el_load1, el_load2)
 	          port map (struc1_ext,struc2_ext,
-                        lagrange1_ext,lagrange2_ext,lagrange3_ext,
-                        master1_ext,master2_ext,master3_ext,
-                        elec1_ext,elec2_ext,elec3_ext);
+                            lagrange1_ext,lagrange2_ext,lagrange3_ext,
+                            master1_ext,master2_ext,master3_ext,
+                            elec1_ext,elec2_ext,elec3_ext);
 end;
 -------------------------------------------------------------------------------
