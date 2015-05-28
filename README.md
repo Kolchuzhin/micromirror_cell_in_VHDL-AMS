@@ -22,8 +22,8 @@ Geometric model:
 hAMSter model:
 --------------
 
-  "Original Model" with comments + testbench.vhd
-  The .vhd files have been compiled with hAMSter simulator.
+  "Original Model" with comments + testbench.vhd;
+  The vhd-files have been compiled with hAMSter simulator.
 
 Original Model:
 ---------------
