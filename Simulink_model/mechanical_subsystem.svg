@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.canvas.micromirror/Mechanical Subsystem' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='16.5 34 669 223' viewBox='16.5 34 669 223'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.canvas.micromirror/Mechanical Subsystem'>Mechanical Subsystem</title>
+<rect id='background.canvas.micromirror/Mechanical Subsystem' x='-4074.5' y='-4057' width='8829.5' height='8366' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/modal amplitude' class='proptable' pointer-events='none' extent_Height='142' extent_Width='146' preferred_X='685.5' preferred_Y='108'>
+  <rect x='0' y='0' width='146' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='90' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='90' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='90' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='90' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='90' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='90' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='90' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='85' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='90' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='90' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='90' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='90' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='129' width='146' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='90' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='146' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/modal amplitude' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/modal amplitude'>modal amplitude</title>
+<g><rect x='625' y='103' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='625' y='103' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='599.5' y='129' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>modal amplitude</text>
+</g>
+</g>
+<g><g><text stroke='none' x='637' y='114.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_84)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/v to u' class='proptable' pointer-events='none' extent_Height='142' extent_Width='154' preferred_X='515' preferred_Y='100'>
+  <rect x='0' y='0' width='154' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ExternalReset</text>
+  <text stroke='none' x='119' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>none</text>
+  <rect x='0' y='19' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InitialConditionSource</text>
+  <text stroke='none' x='119' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>internal</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InitialCondition</text>
+  <text stroke='none' x='119' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LimitOutput</text>
+  <text stroke='none' x='119' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UpperSaturationLimit</text>
+  <text stroke='none' x='119' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='63' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LowerSaturationLimit</text>
+  <text stroke='none' x='119' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-inf</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ShowSaturationPort</text>
+  <text stroke='none' x='119' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ShowStatePort</text>
+  <text stroke='none' x='119' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AbsoluteTolerance</text>
+  <text stroke='none' x='119' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='107' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IgnoreLimit</text>
+  <text stroke='none' x='119' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='119' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ContinuousStateAttributes</text>
+  <text stroke='none' x='119' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>&apos;&apos;</text>
+  <rect x='0' y='0' width='154' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/v to u' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/v to u'>v to u</title>
+<g><rect x='480' y='95' width='30' height='30' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='482' y='137' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>v to u</text>
+</g>
+</g>
+<g><g><text stroke='none' x='492' y='107' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_85)' font-family='Helvetica'>1</text>
+</g>
+<line x1='492' y1='110' x2='498' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_85)' />
+<g><text stroke='none' x='493' y='120' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_85)' font-family='Helvetica'>s</text>
+</g>
+</g>
+<g><rect x='480' y='95' width='30' height='30' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/nonlinear modal reaction force' class='proptable' pointer-events='none' extent_Height='65' extent_Width='169' preferred_X='422.5' preferred_Y='215'>
+  <rect x='0' y='0' width='169' height='65' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MATLABFcn</text>
+  <text stroke='none' x='87' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>sene(u(1),u(2),0,2)</text>
+  <rect x='0' y='19' width='169' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutputDimensions</text>
+  <text stroke='none' x='87' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>n_mode</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutputSignalType</text>
+  <text stroke='none' x='87' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='41' width='169' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Output1D</text>
+  <text stroke='none' x='87' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='87' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='169' height='65' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/nonlinear modal reaction force' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/nonlinear modal reaction force'>nonlinear modal reaction force</title>
+<g><rect x='315' y='210' width='60' height='30' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='272.5' y='252' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>nonlinear modal reaction force</text>
+</g>
+</g>
+<g><g><text stroke='none' x='324' y='223.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_86)' font-family='Helvetica'>MATLAB</text>
+</g>
+<g><text stroke='none' x='324.5' y='236.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_86)' font-family='Helvetica'>Function</text>
+</g>
+</g>
+<g><rect x='315' y='210' width='60' height='30' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/modal damping force' class='proptable' pointer-events='none' extent_Height='142' extent_Width='221' preferred_X='400.5' preferred_Y='44'>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>damp_m</text>
+  <rect x='0' y='19' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Multiplication</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Matrix(K*u)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMin</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='41' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMax</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamDataTypeStr</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <rect x='0' y='63' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='85' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/modal damping force' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/modal damping force'>modal damping force</title>
+<g><polygon points='325,55 365,39 365,71 325,55 325,55 ' stroke='none' fill='rgb(100%,100%,100%)' />
+<polyline points='325,55 365,39 365,71 325,55 325,55 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<g><text stroke='none' x='294.5' y='83' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>modal damping force</text>
+</g>
+</g>
+<g><g><text stroke='none' x='345.5' y='59.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_87)' font-family='Helvetica'>K*u</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/modal acceleration' class='proptable' pointer-events='none' extent_Height='142' extent_Width='221' preferred_X='395.5' preferred_Y='100'>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inv(mass_m)</text>
+  <rect x='0' y='19' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Multiplication</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Matrix(K*u)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMin</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='41' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMax</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamDataTypeStr</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <rect x='0' y='63' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='85' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/modal acceleration' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/modal acceleration'>modal acceleration</title>
+<g><polygon points='325,95 365,110 365,110 325,125 325,95 ' stroke='none' fill='rgb(100%,100%,100%)' />
+<polyline points='325,95 365,110 365,110 325,125 325,95 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<g><text stroke='none' x='299.5' y='137' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>modal acceleration</text>
+</g>
+</g>
+<g><g><text stroke='none' x='326.5' y='114.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_88)' font-family='Helvetica'>K*u</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/linear modal reaction force' class='proptable' pointer-events='none' extent_Height='142' extent_Width='221' preferred_X='413.5' preferred_Y='159'>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>stif_m</text>
+  <rect x='0' y='19' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Multiplication</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Matrix(K*u)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMin</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='41' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMax</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamDataTypeStr</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <rect x='0' y='63' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='85' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='107' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='221' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/linear modal reaction force' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/linear modal reaction force'>linear modal reaction force</title>
+<g><polygon points='325,170 365,154 365,186 325,170 325,170 ' stroke='none' fill='rgb(100%,100%,100%)' />
+<polyline points='325,170 365,154 365,186 325,170 325,170 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<g><text stroke='none' x='281.5' y='198' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>linear modal reaction force</text>
+</g>
+</g>
+<g><g><text stroke='none' x='345.5' y='174.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_89)' font-family='Helvetica'>K*u</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/element load' class='proptable' pointer-events='none' extent_Height='131' extent_Width='221' preferred_X='201.5' preferred_Y='77'>
+  <rect x='0' y='0' width='221' height='131' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Gain</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[elld_m]</text>
+  <rect x='0' y='19' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Multiplication</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Matrix(K*u)</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMin</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='41' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamMax</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ParamDataTypeStr</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <rect x='0' y='63' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='85' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as input</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <rect x='0' y='107' width='221' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='221' height='131' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/element load' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/element load'>element load</title>
+<g><polygon points='140,85 190,100 190,100 140,115 140,85 ' stroke='none' fill='rgb(100%,100%,100%)' />
+<polyline points='140,85 190,100 190,100 140,115 140,85 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<g><text stroke='none' x='133.5' y='80' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>element load</text>
+</g>
+</g>
+<g><g><text stroke='none' x='144.5' y='104.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_90)' font-family='Helvetica'>K*u</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/a to v' class='proptable' pointer-events='none' extent_Height='142' extent_Width='154' preferred_X='430' preferred_Y='100'>
+  <rect x='0' y='0' width='154' height='142' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ExternalReset</text>
+  <text stroke='none' x='119' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>none</text>
+  <rect x='0' y='19' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InitialConditionSource</text>
+  <text stroke='none' x='119' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>internal</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InitialCondition</text>
+  <text stroke='none' x='119' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LimitOutput</text>
+  <text stroke='none' x='119' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UpperSaturationLimit</text>
+  <text stroke='none' x='119' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>inf</text>
+  <rect x='0' y='63' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LowerSaturationLimit</text>
+  <text stroke='none' x='119' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-inf</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ShowSaturationPort</text>
+  <text stroke='none' x='119' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='85' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ShowStatePort</text>
+  <text stroke='none' x='119' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AbsoluteTolerance</text>
+  <text stroke='none' x='119' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='107' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IgnoreLimit</text>
+  <text stroke='none' x='119' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ZeroCross</text>
+  <text stroke='none' x='119' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='129' width='154' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ContinuousStateAttributes</text>
+  <text stroke='none' x='119' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>&apos;&apos;</text>
+  <rect x='0' y='0' width='154' height='142' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/a to v' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/a to v'>a to v</title>
+<g><rect x='395' y='95' width='30' height='30' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='397' y='137' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>a to v</text>
+</g>
+</g>
+<g><g><text stroke='none' x='407' y='107' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_91)' font-family='Helvetica'>1</text>
+</g>
+<line x1='407' y1='110' x2='413' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_91)' />
+<g><text stroke='none' x='408' y='120' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_91)' font-family='Helvetica'>s</text>
+</g>
+</g>
+<g><rect x='395' y='95' width='30' height='30' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/Sw1' class='proptable' pointer-events='none' extent_Height='32' extent_Width='45' preferred_X='250' preferred_Y='154'>
+  <rect x='0' y='0' width='45' height='32' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>sw</text>
+  <text stroke='none' x='35' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='45' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>action</text>
+  <text stroke='none' x='35' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='0' width='45' height='32' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/Sw1' linkid='canvas.micromirror/Mechanical Subsystem/Sw1' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/Sw1'>Sw1</title>
+<g><rect x='215' y='162' width='30' height='36' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='220' y='157' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Sw1</text>
+</g>
+</g>
+<g><line x1='239' y1='170' x2='245' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='239' y1='190' x2='245' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='215' y1='180' x2='221' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='239' y1='170' x2='238' y2='169' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='169' x2='238' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='168' x2='238' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='168' x2='237' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='168' x2='237' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='168' x2='236' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='236' y1='168' x2='235' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='168' x2='235' y2='168' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='168' x2='235' y2='169' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='169' x2='235' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='170' x2='235' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='170' x2='235' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='171' x2='235' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='171' x2='236' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='236' y1='171' x2='237' y2='172' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='172' x2='237' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='171' x2='238' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='171' x2='238' y2='171' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='171' x2='238' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='170' x2='239' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='239' y1='190' x2='238' y2='189' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='189' x2='238' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='188' x2='238' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='188' x2='237' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='188' x2='237' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='188' x2='236' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='236' y1='188' x2='235' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='188' x2='235' y2='188' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='188' x2='235' y2='189' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='189' x2='235' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='190' x2='235' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='190' x2='235' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='191' x2='235' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='235' y1='191' x2='236' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='236' y1='191' x2='237' y2='192' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='192' x2='237' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='237' y1='191' x2='238' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='191' x2='238' y2='191' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='191' x2='238' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='238' y1='190' x2='239' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='225' y1='180' x2='224' y2='179' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='179' x2='224' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='178' x2='224' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='178' x2='223' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='223' y1='178' x2='223' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='223' y1='178' x2='222' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='222' y1='178' x2='221' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='178' x2='221' y2='178' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='178' x2='221' y2='179' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='179' x2='221' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='180' x2='221' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='180' x2='221' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='181' x2='221' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='221' y1='181' x2='222' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='222' y1='181' x2='223' y2='182' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='223' y1='182' x2='223' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='223' y1='181' x2='224' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='181' x2='224' y2='181' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='181' x2='224' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='224' y1='180' x2='225' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+<line x1='225' y1='180' x2='239' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_92)' />
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/Sum1' class='proptable' pointer-events='none' extent_Height='120' extent_Width='254' preferred_X='270' preferred_Y='82'>
+  <rect x='0' y='0' width='254' height='120' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconShape</text>
+  <text stroke='none' x='124' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>rectangular</text>
+  <rect x='0' y='19' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inputs</text>
+  <text stroke='none' x='124' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-++-</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>InputSameDT</text>
+  <text stroke='none' x='124' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='41' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>AccumDataTypeStr</text>
+  <text stroke='none' x='124' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Inherit via internal rule</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='124' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='63' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='124' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='124' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: Same as first input</text>
+  <rect x='0' y='85' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RndMeth</text>
+  <text stroke='none' x='124' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Floor</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaturateOnIntegerOverflow</text>
+  <text stroke='none' x='124' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>on</text>
+  <rect x='0' y='107' width='254' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='124' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='0' width='254' height='120' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/Sum1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/Sum1'>Sum1</title>
+<g><rect x='225' y='77' width='40' height='61' stroke='none' fill='rgb(100%,100%,100%)' />
+</g>
+<g><line x1='228' y1='85' x2='232' y2='85' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+<line x1='228' y1='100' x2='232' y2='100' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+<line x1='230' y1='98' x2='230' y2='102' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+<line x1='228' y1='115' x2='232' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+<line x1='230' y1='113' x2='230' y2='117' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+<line x1='228' y1='130' x2='232' y2='130' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_93)' />
+</g>
+<g><rect x='225' y='77' width='40' height='61' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/external modal force' class='proptable' pointer-events='none' extent_Height='164' extent_Width='195' preferred_X='123.5' preferred_Y='138'>
+  <rect x='0' y='0' width='195' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>2</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/external modal force' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/external modal force'>external modal force</title>
+<g><rect x='55' y='133' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='55' y='133' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='21.5' y='159' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>external modal force</text>
+</g>
+</g>
+<g><g><text stroke='none' x='67' y='144.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_94)' font-family='Helvetica'>2</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/element scale factor' class='proptable' pointer-events='none' extent_Height='164' extent_Width='195' preferred_X='122.5' preferred_Y='98'>
+  <rect x='0' y='0' width='195' height='164' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='139' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='19' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='139' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='139' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='41' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='139' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='139' y='60' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='63' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='139' y='71' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='139' y='82' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <rect x='0' y='85' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='139' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='139' y='104' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='107' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='139' y='115' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <text stroke='none' x='5' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='139' y='126' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='129' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='139' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='139' y='148' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='151' width='195' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='139' y='159' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='195' height='164' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/element scale factor' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/element scale factor'>element scale factor</title>
+<g><rect x='55' y='93' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='55' y='93' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='22.5' y='119' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>element scale factor</text>
+</g>
+</g>
+<g><g><text stroke='none' x='67' y='104.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_95)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_66' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='230' preferred_Y='100'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_66' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_66'>line</title>
+<line x1='190' y1='100' x2='195' y2='100' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='220' y1='100' x2='210' y2='100' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='215,95 215,105 225,100 215,95 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='193,100 195,100 210,100 212,100 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_67' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='230' preferred_Y='130'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_67' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_67'>line</title>
+<line x1='215' y1='180' x2='210' y2='180' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='220' y1='130' x2='210' y2='130' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='215,125 215,135 225,130 215,125 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='212,180 210,180 210,130 212,130 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_68' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='330' preferred_Y='60'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_68' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_68'>line</title>
+<line x1='325' y1='55' x2='320' y2='55' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='220' y1='85' x2='210' y2='85' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='215,80 215,90 225,85 215,80 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='322,55 320,55 210,55 210,85 212,85 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_69' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='630' preferred_Y='110'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_69' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_69'>line</title>
+<line x1='380' y1='225' x2='390' y2='225' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='385,230 385,220 375,225 385,230 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='530,170 530,225 390,225 388,225 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='370' y1='170' x2='380' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='375,175 375,165 365,170 375,175 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='530,170 380,170 378,170 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<polyline points='530,110 530,170 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='529' y='169' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='529' y='169' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<line x1='620' y1='110' x2='610' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='615,105 615,115 625,110 615,105 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='530,110 610,110 612,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='510' y1='110' x2='515' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='513,110 515,110 530,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='529' y='109' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='529' y='109' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_70' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='485' preferred_Y='55'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_70' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_70'>line</title>
+<line x1='475' y1='110' x2='465' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='470,105 470,115 480,110 470,105 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='450,110 465,110 467,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='370' y1='55' x2='380' y2='55' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='375,60 375,50 365,55 375,60 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='450,110 450,55 380,55 378,55 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<line x1='425' y1='110' x2='430' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<polyline points='428,110 430,110 450,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+<rect x='449' y='109' width='2' height='2' stroke='none' fill='rgb(0%,0%,0%)' />
+<rect x='449' y='109' width='2' height='2' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_71' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='400' preferred_Y='110'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_71' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_71'>line</title>
+<line x1='365' y1='110' x2='370' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='390' y1='110' x2='380' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='385,105 385,115 395,110 385,105 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='368,110 370,110 380,110 382,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_72' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='330' preferred_Y='110'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_72' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_72'>line</title>
+<line x1='265' y1='110' x2='270' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='320' y1='110' x2='310' y2='110' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='315,105 315,115 325,110 315,105 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='268,110 270,110 310,110 312,110 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_73' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='320' preferred_Y='190'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_73' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_73'>line</title>
+<line x1='315' y1='225' x2='310' y2='225' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='250' y1='190' x2='260' y2='190' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='255,195 255,185 245,190 255,195 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='312,225 310,225 260,225 260,190 258,190 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_74' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='330' preferred_Y='170'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_74' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_74'>line</title>
+<line x1='325' y1='170' x2='320' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='250' y1='170' x2='260' y2='170' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='255,175 255,165 245,170 255,175 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='322,170 320,170 260,170 258,170 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_75' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='145' preferred_Y='100'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_75' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_75'>line</title>
+<line x1='85' y1='100' x2='90' y2='100' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='135' y1='100' x2='125' y2='100' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='130,95 130,105 140,100 130,95 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='88,100 90,100 125,100 127,100 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.canvas.micromirror/Mechanical Subsystem/_uniq_id_76' class='proptable' pointer-events='none' extent_Height='54' extent_Width='150' preferred_X='230' preferred_Y='115'>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='126' y='16' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='19' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='126' y='27' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='126' y='38' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='41' width='150' height='11' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='126' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='150' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='canvas.micromirror/Mechanical Subsystem/_uniq_id_76' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.canvas.micromirror/Mechanical Subsystem/_uniq_id_76'>line</title>
+<line x1='85' y1='140' x2='90' y2='140' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='220' y1='115' x2='210' y2='115' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='215,110 215,120 225,115 215,110 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='88,140 90,140 170,140 170,115 210,115 212,115 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_84'><rect x='625' y='103' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_85'><rect x='480' y='95' width='30' height='30' /></clipPath>
+  <clipPath id='clip_rect_86'><rect x='315' y='210' width='60' height='30' /></clipPath>
+  <clipPath id='clip_rect_87'><rect x='325' y='39' width='40' height='32' /></clipPath>
+  <clipPath id='clip_rect_88'><rect x='325' y='95' width='40' height='30' /></clipPath>
+  <clipPath id='clip_rect_89'><rect x='325' y='154' width='40' height='32' /></clipPath>
+  <clipPath id='clip_rect_90'><rect x='140' y='85' width='50' height='30' /></clipPath>
+  <clipPath id='clip_rect_91'><rect x='395' y='95' width='30' height='30' /></clipPath>
+  <clipPath id='clip_rect_92'><rect x='215' y='162' width='30' height='36' /></clipPath>
+  <clipPath id='clip_rect_93'><rect x='225' y='77' width='40' height='61' /></clipPath>
+  <clipPath id='clip_rect_94'><rect x='55' y='133' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_95'><rect x='55' y='93' width='30' height='14' /></clipPath>
+</defs>
+</svg>
