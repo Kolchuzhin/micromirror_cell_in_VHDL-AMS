@@ -12,7 +12,13 @@ Simplorer model:
 Simulink Model:
 ---------------
 
-  Simulink model of the micromirror cell.
+  Simulink model of the micromirror cell:
+   * micromirror_ini.m
+   * sene.m
+   * cap12.m
+   * cap13.m
+   * cap23.m
+   * micromirror.mdl
 
 Geometric model:
 ----------------
