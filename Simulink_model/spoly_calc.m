@@ -11,9 +11,9 @@ function [fwv, dfwvx, dfwvy, dfwvz]=spoly_calc(qx, qy, qz,...
 %
 %           4 polynomial types:
 %                   s_type=1 ==> Lagrange 
-%                   s_type=1 ==> Pascal 
-%                   s_type=1 ==> Reduced Lagrange 
-%                   s_type=1 ==> Reduced Pascal
+%                   s_type=2 ==> Pascal 
+%                   s_type=3 ==> Reduced Lagrange 
+%                   s_type=4 ==> Reduced Pascal
 %
 % OUTPUT: 
 % Results are the function value itself and the first derivatives 
