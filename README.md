@@ -33,7 +33,9 @@ Geometric model:
 hAMSter model:
 --------------
 
-  "Original Model" with comments + testbench.vhd;
+  variant 1: "Original Model" with comments + testbench.vhd;
+  variant 2: micromirror.vhd (single file w/o packages);
+  
   The vhd-files have been compiled with hAMSter simulator.
 
 Original Model:
