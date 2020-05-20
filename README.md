@@ -37,6 +37,8 @@ hAMSter model:
   
   variant 2: micromirror.vhd (single file w/o packages);
   
+  variant 3: micromirror.vhd (w/o SIGNAL) in progress;
+  
   The vhd-files have been compiled with hAMSter simulator.
 
 Original Model:
