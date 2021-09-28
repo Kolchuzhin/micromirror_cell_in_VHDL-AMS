@@ -33,15 +33,12 @@ Geometric model:
 
 hAMSter model:
 --------------
-
-  variant 1: "Original Model" with comments + testbench.vhd;
+  The vhd-files have been compiled with hAMSter simulation system Version 2.0.
   
-  variant 2: micromirror.vhd (single file w/o packages);
+   * variant 1: "Original Model" with comments + testbench.vhd;
+   * variant 2: micromirror.vhd (single file w/o packages);
+   * variant 3: micromirror.vhd (w/o SIGNAL) in progress;
   
-  variant 3: micromirror.vhd (w/o SIGNAL) in progress;
-  
-  The vhd-files have been compiled with hAMSter simulator.
-
 Original Model:
 ---------------
 
