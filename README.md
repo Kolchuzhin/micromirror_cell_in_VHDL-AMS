@@ -25,7 +25,9 @@ Simulink Model:
    * cap12.m
    * cap13.m
    * cap23.m
-   * micromirror.mdl
+   * micromirror.mdl (in progress)
+   
+   https://github.com/Kolchuzhin/micromirror_cell_in_VHDL-AMS/blob/master/Simulink_model/readme.md
 
 Geometric model:
 ----------------
