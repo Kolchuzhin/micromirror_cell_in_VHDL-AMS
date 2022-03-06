@@ -41,6 +41,16 @@ hAMSter model:
    * variant 1: "Original Model" with comments + testbench.vhd;
    * variant 2: micromirror.vhd (single file w/o packages);
    * variant 3: micromirror.vhd (w/o SIGNAL) in progress;
+
+  Testbench:
+  * Solver parameters: Euler solver, time=1.5m, step=0.5 us
+  * Load options:
+    - use_pass=0 => external modal forces, uN; fm1_ext=km_1*q1_ext, => q1_ext=1.0 (mechanical test)
+    - use_pass=1 => calculation of voltage displacement functions up to pull-in: voltage sweep
+    - use_pass=2 => calculation of voltage displacement functions at multiple load steps
+    - use_pass=3 => calculation of displacements at acting element loads
+    - use_pass=4 => (prestressed) harmonic analysis -> chirp for harmonic response; + DFT (external)
+    - use_pass=5 => nonlinear transient analysis 
   
 Original Model:
 ---------------
