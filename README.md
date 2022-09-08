@@ -11,10 +11,20 @@ Kolchuzhin, Vladimir and Mehner, Jan (2015, June 30). System level modeling of t
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19153.svg)](https://doi.org/10.5281/zenodo.19153)
 
+Geometric model:
+----------------
+   * [2D layout of the micromiror cell in an SVG format](https://github.com/Kolchuzhin/micromirror_cell_in_VHDL-AMS/blob/master/geometric_model/micromirror.svg)
+   * [The CAD geometry of the micromiror cell in an IGES format](https://github.com/Kolchuzhin/micromirror_cell_in_VHDL-AMS/blob/master/geometric_model/micromirror.iges)
+   
 Simplorer model:
 ----------------
 
 coming soon ...
+
+Cloud-based system simulator PartQuest Explore:
+-----------------------------------------------
+
+https://explore.partquest.com/live-embed-design/324074 work in progress
 
 Simulink Model:
 ---------------
@@ -28,11 +38,6 @@ Simulink Model:
    * micromirror.mdl (in progress)
    
    https://github.com/Kolchuzhin/micromirror_cell_in_VHDL-AMS/blob/master/Simulink_model/readme.md
-
-Geometric model:
-----------------
-   * 2D layout of the micromiror cell in an SVG format.
-   * The CAD geometry of the micromiror cell in an IGES format.
 
 hAMSter model:
 --------------
