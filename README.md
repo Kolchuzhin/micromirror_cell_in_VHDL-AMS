@@ -19,7 +19,9 @@ Geometric model:
 Simplorer model:
 ----------------
 
-coming soon ...
+   * [micromirror.vhd](https://github.com/Kolchuzhin/micromirror_cell_in_VHDL-AMS/blob/master/Simplorer_model/micromirror.vhd)
+   * micromirror_mod.dll
+   
 
 Cloud-based system simulator PartQuest Explore:
 -----------------------------------------------
